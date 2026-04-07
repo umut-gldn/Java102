@@ -1,4 +1,4 @@
-package Java102.src.generic;
+package generic;
 
 public class MyList<T> {
     private Object[] dizi;
