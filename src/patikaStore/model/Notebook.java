@@ -28,10 +28,10 @@ public class Notebook extends Product {
     @Override
     public void printTableHeader() {
         System.out.println("Notebook listesi");
-        System.out.println("--------------------------------");
+        System.out.println("-".repeat(100));
         System.out.format("| %-4s | %-29s | %-9s | %-9s | %-9s | %-9s | %-11s |%n",
                 "ID", "Ürün Adı", "Fiyat", "Marka", "Depolama", "Ekran", "RAM");
-        System.out.println("--------------------------------");
+        System.out.println("-".repeat(100));
     }
 
     @Override
